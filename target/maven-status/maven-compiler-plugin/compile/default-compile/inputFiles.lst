@@ -1,0 +1,7 @@
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/repositories/SchoolRepository.java
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/entities/School.java
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/controllers/SchoolController.java
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/controllers/WizardController.java
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/entities/Wizard.java
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/repositories/WizardRepository.java
+/home/wilder/quetes/SpringJDBC/spring-wild-db-quest/src/main/java/com/wildcodeschool/myProjectWithDB/MyProjectWithDbApplication.java
