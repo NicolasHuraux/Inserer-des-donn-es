@@ -8,9 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
 import com.wildcodeschool.myProjectWithDB.entities.School;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -19,8 +17,8 @@ public class SchoolRepository {
     private final static String DB_URL = "jdbc:mysql://localhost:3306/wild_db_quest?serverTimezone=GMT";
     private final static String DB_USER = "root";
     private final static String DB_PASSWORD = "Nicolas1&";
-
     public static List<School> selectByCountry(String country) {
+        
         try(
             Connection connection = DriverManager.getConnection( DB_URL, DB_USER, DB_PASSWORD );
             PreparedStatement statement = connection.prepareStatement( "SELECT * FROM school WHERE country LIKE ?" );
